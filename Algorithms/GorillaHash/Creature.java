@@ -10,7 +10,7 @@ String proteinSeq;
 ArrayList<String> kGramsList;
 Map<Integer, Integer> profile;
 
-//Contructor
+//Constructor
 public Creature() {
   this.allInfo=null;
   this.name=null;
