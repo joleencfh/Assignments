@@ -3,31 +3,19 @@ import java.util.ArrayList;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.util.HashSet;
-/**
- * Write a description of class IngredientsOrganizer here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class IngredientsOrganizer
 {
     // instance variables - replace the example below with your own
     FileReader fr;
 
-    /**
-     * Constructor for objects of class IngredientsOrganizer
-     */
+   
     public IngredientsOrganizer()
     {
         fr = new FileReader();
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
+    
     public ArrayList<ArrayList<String>> organize (ArrayList w,double amount) throws FileNotFoundException
     {
         //1) Merge ingredients in one AList
