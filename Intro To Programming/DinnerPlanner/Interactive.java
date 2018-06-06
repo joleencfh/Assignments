@@ -9,7 +9,7 @@ import java.io.*;
 
 public class Interactive
 {
-    public static void main(String[] args){}
+   
     // instance variables - replace the example below with your own
     private RandomRecipe rr;
     private InputReader ir;
