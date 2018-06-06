@@ -1,11 +1,6 @@
 import java.util.ArrayList;
 import java.io.*;
-/**
- * Write a description of class Interactive here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 
 public class Interactive
 {
@@ -15,9 +10,7 @@ public class Interactive
     private InputReader ir;
     private ShoppingList sl;
 
-    /**
-     * Constructor for objects of class Interactive
-     */
+    
     public Interactive()
     {
         rr = new RandomRecipe();
@@ -25,12 +18,6 @@ public class Interactive
         sl = new ShoppingList();
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
     public void start()
     {
         boolean finished = false;
