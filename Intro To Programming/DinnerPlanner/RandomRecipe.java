@@ -3,12 +3,7 @@ import java.util.HashSet;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
-/**
- * Write a description of class RandomRecipe here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class RandomRecipe
 {
     // instance variables - replace the example below with your own
@@ -18,9 +13,7 @@ public class RandomRecipe
     private ArrayList<String> chosen;
     private Random rg;
 
-    /**
-     * Constructor for objects of class RandomRecipe
-     */
+    
     public RandomRecipe()
     {
         meatOrFish= new ArrayList<String>();
