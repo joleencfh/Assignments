@@ -4,32 +4,20 @@ import java.util.HashMap;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.io.*;
-/**
- * Write a description of class FileReader here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class FileReader
 {
     // instance variables - replace the example below with your own
     private int x;
 
-    /**
-     * Constructor for objects of class FileReader
-     */
+    
     public FileReader()
     {
         // initialise instance variables
         x = 0;
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
+    
     public ArrayList readFile(String fileName, double amount) throws FileNotFoundException
     {
        Scanner in = new Scanner(new File(fileName));
