@@ -1,20 +1,13 @@
 import java.util.ArrayList;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
-/**
- * Write a description of class UnitConv here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class UnitConv
 {
     
     FileReader fr;
 
-    /**
-     * Constructor for objects of class UnitConv
-     */
+   
     public UnitConv()
     {
         fr = new FileReader();
