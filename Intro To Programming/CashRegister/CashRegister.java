@@ -12,9 +12,7 @@ public class CashRegister
      
      
  
-    /**
-     * Constructor for objects of class CashRegister
-     */
+    
     public CashRegister(String x, String y) throws FileNotFoundException
     {
          
@@ -51,7 +49,7 @@ public class CashRegister
     for (String barcd : (ArrayList<String>) initialList) {
         prep.putInCat(barcd, finalList);
     }
-    // e fino a qui ho una AL di AL in cui il primo elemento di ogni AL è il nome della categoria e il resto sono gli articoli come barcodes.
+    // e fino a qui ho una AL di AL in cui il primo elemento di ogni AL Ã¨ il nome della categoria e il resto sono gli articoli come barcodes.
      
     for (ArrayList single : finalList) {
         if (single.size() > 1) {
