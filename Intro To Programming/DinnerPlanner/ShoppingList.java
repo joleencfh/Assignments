@@ -3,21 +3,14 @@ import java.util.ArrayList;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 import java.util.HashSet;
-/**
- * Write a description of class ShoppingList here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class ShoppingList
 {
     FileReader fr;
     IngredientsOrganizer iOrg;
     UnitConv uc;
 
-    /**
-     * Constructor for objects of class ShoppingList
-     */
+    
     public ShoppingList()
     {
        uc = new UnitConv();
@@ -25,12 +18,7 @@ public class ShoppingList
        fr= new FileReader();
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
+    
     public void getThatList(ArrayList<String> x, double amount) throws FileNotFoundException
     {
                 
